@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  border: 4px solid #5014d1;
+  border-radius: 7px;
+}
+
+.corp {
+  display: inline-block;
+}
+
+.bt_score {
+  display: block;
+  margin: 20px 10px;
+}
+
+#score {
+  border: 2px solid rgb(222, 250, 78);
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+
+  border-radius: 5px;
+  font-style: italic;
+}
+span {
+  font-size: 20px;
+  font-style: oblique;
+}
+
+#commencer {
+  width: 160px;
+  height: 40px;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blue;
+}
